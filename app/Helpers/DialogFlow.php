@@ -105,7 +105,9 @@ class DialogFlow
     {
         return [
             "text" => [
-                "ABC Restaurant"
+                "پیزا کیسل",
+                "نارو وے پیزا",
+                "سپر وے",
             ],
             "allowPlaybackInterruption" => true
         ];
