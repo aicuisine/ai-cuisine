@@ -78,7 +78,7 @@ class DialogFlow
                 // "conversationSuccess" => [
                 //     object(ConversationSuccess)
                 // ],
-                "outputAudioText" => self::generateOutputAudioTexts(),
+                // "outputAudioText" => self::generateOutputAudioTexts(),
                 // "liveAgentHandoff" => [
                 //     object(LiveAgentHandoff)
                 // ],

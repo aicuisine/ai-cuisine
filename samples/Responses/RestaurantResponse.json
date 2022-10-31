@@ -11,5 +11,26 @@
             ],
             "mergeBehavior": "APPEND"
         }
+    },
+    {
+        "fulfillmentResponse": {
+            "messages": [
+                {
+                    "text": {
+                        "text": [
+                            "\u067e\u06cc\u0632\u0627 \u06a9\u06cc\u0633\u0644",
+                            "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                            "\u0633\u067e\u0631 \u0648\u06d2"
+                        ],
+                        "allowPlaybackInterruption": true
+                    },
+                    "outputAudioText": {
+                        "text": "\u067e\u06cc\u0632\u0627 \u06a9\u06cc\u0633\u0644\n\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627\n\u0633\u067e\u0631 \u0648\u06d2",
+                        "allowPlaybackInterruption": true
+                    }
+                }
+            ],
+            "mergeBehavior": "APPEND"
+        }
     }
 ]
