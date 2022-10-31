@@ -1,0 +1,15 @@
+[
+    {
+        "fulfillmentResponse": {
+            "messages": [
+                {
+                    "text": {
+                        "text": ["ABC Restaurant"],
+                        "allowPlaybackInterruption": true
+                    }
+                }
+            ],
+            "mergeBehavior": "APPEND"
+        }
+    }
+]
