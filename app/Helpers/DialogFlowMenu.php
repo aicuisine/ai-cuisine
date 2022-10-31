@@ -2,7 +2,7 @@
 
 namespace App\Helpers;
 
-class DialogFlow
+class DialogFlowMenu
 {
 
     public static function generateFulfillmentResponse()
@@ -102,12 +102,12 @@ class DialogFlow
     public static function generateResponseTexts()
     {
         return [
-            "text" => [
-                "نارو وے پیزا پیزا کیسل سپر وے",
-                // "پیزا کیسل",
-                // "نارو وے پیزا",
-                // "سپر وے",
-            ],
+            "text" => implode("\n", [
+                "رولز",
+                "لہسن روٹی",
+                "سینڈوچ",
+                "فرائز",
+            ]),
             "allowPlaybackInterruption" => true
         ];
     }
