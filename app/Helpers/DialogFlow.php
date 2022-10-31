@@ -78,9 +78,7 @@ class DialogFlow
                 // "conversationSuccess" => [
                 //     object(ConversationSuccess)
                 // ],
-                // "outputAudioText" => [
-                //     object(OutputAudioText)
-                // ],
+                "outputAudioText" => self::generateOutputAudioTexts(),
                 // "liveAgentHandoff" => [
                 //     object(LiveAgentHandoff)
                 // ],
@@ -109,6 +107,18 @@ class DialogFlow
                 "نارو وے پیزا",
                 "سپر وے",
             ],
+            "allowPlaybackInterruption" => true
+        ];
+    }
+
+    public static function generateOutputAudioTexts()
+    {
+        return [
+            "text" => implode("\n", [
+                "پیزا کیسل",
+                "نارو وے پیزا",
+                "سپر وے",
+            ]),
             "allowPlaybackInterruption" => true
         ];
     }
