@@ -1,0 +1,20 @@
+{
+    "detectIntentResponseId": "c3aed93e-a535-4c03-a3d4-0f06d0204cff",
+    "intentInfo": {
+        "lastMatchedIntent": "projects/demorest1-popj/locations/us-central1/agents/5a33d040-e387-474d-9709-e021f03df3c3/intents/6e951132-4942-4bce-b389-d37385f8ef76",
+        "displayName": "Restaurants List",
+        "confidence": 1.0
+    },
+    "pageInfo": {
+        "currentPage": "projects/demorest1-popj/locations/us-central1/agents/5a33d040-e387-474d-9709-e021f03df3c3/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+        "displayName": "Start Page"
+    },
+    "sessionInfo": {
+        "session": "projects/demorest1-popj/locations/us-central1/agents/5a33d040-e387-474d-9709-e021f03df3c3/sessions/6ab8f4-d1e-9a7-c05-7f2d41024"
+    },
+    "fulfillmentInfo": {
+        "tag": "restaurant-list"
+    },
+    "text": "ریستوراں",
+    "languageCode": "ur"
+}

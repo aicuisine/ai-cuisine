@@ -73,9 +73,7 @@ class DialogFlow
         return [
             [
                 // Union field message can be only one of the following:
-                // "text" => [
-                //     object(Text)
-                // ],
+                "text" => self::generateResponseTexts(),
                 // "payload" => [
                 //     object
                 // ],
@@ -101,6 +99,18 @@ class DialogFlow
                 //     object(TelephonyTransferCall)
                 // ]
                 // End of list of possible types for union field message.
+            ]
+        ];
+    }
+
+    public static function generateResponseTexts()
+    {
+        return [
+            [
+                "text" => [
+                    "ABC Restaurant"
+                ],
+                "allowPlaybackInterruption" => true
             ]
         ];
     }
