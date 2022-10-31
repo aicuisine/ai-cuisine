@@ -8,11 +8,9 @@ class DialogFlow
     public static function generateFulfillmentResponse()
     {
         return [
-            [
-                "messages" => self::generateResponseMessages(),
-                // "mergeBehavior" => enum(MERGE_BEHAVIOR_UNSPECIFIED, APPEND, REPLACE)
-                "mergeBehavior" => "APPEND"
-            ]
+            "messages" => self::generateResponseMessages(),
+            // "mergeBehavior" => enum(MERGE_BEHAVIOR_UNSPECIFIED, APPEND, REPLACE)
+            "mergeBehavior" => "APPEND"
         ];
     }
 
@@ -106,12 +104,10 @@ class DialogFlow
     public static function generateResponseTexts()
     {
         return [
-            [
-                "text" => [
-                    "ABC Restaurant"
-                ],
-                "allowPlaybackInterruption" => true
-            ]
+            "text" => [
+                "ABC Restaurant"
+            ],
+            "allowPlaybackInterruption" => true
         ];
     }
 }

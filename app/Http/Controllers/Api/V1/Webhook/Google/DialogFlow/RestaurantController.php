@@ -12,9 +12,9 @@ class RestaurantController extends Controller
     {
         $response = [
             "fulfillmentResponse" => HelpersDialogFlow::generateFulfillmentResponse(),
-            "pageInfo" => HelpersDialogFlow::generatePageInfo(),
-            "sessionInfo" => HelpersDialogFlow::generateSessionInfo(),
-            "payload" => HelpersDialogFlow::generatePayload(),
+            // "pageInfo" => HelpersDialogFlow::generatePageInfo(),
+            // "sessionInfo" => HelpersDialogFlow::generateSessionInfo(),
+            // "payload" => HelpersDialogFlow::generatePayload(),
 
             // Union field transition can be only one of the following:
             // "targetPage" => string,
