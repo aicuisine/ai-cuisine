@@ -102,12 +102,9 @@ class DialogFlowMenu
     public static function generateResponseTexts()
     {
         return [
-            "text" => implode("\n", [
-                "رولز",
-                "لہسن روٹی",
-                "سینڈوچ",
-                "فرائز",
-            ]),
+            "text" => [
+                "فرائز لہسن روٹی رولز",
+            ],
             "allowPlaybackInterruption" => true
         ];
     }
