@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Api\V1\Webhook\Google\DialogFlow;
 
-use App\Helpers\DialogFlowMealitem as HelpersDialogFlowMealItem;
+use App\Helpers\DialogFlowMealItem as HelpersDialogFlowMealItem;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
