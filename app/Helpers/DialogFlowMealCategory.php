@@ -2,7 +2,7 @@
 
 namespace App\Helpers;
 
-class DialogFlowMenu
+class DialogFlowMealCategory
 {
 
     public static function generateFulfillmentResponse()
@@ -103,7 +103,7 @@ class DialogFlowMenu
     {
         return [
             "text" => [
-                "فرائز لہسن روٹی رولز",
+                "برگر، سینڈوچ، مشروبات",
             ],
             "allowPlaybackInterruption" => true
         ];

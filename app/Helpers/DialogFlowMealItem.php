@@ -2,7 +2,7 @@
 
 namespace App\Helpers;
 
-class DialogFlowRestaurant
+class DialogFlowMealItem
 {
 
     public static function generateFulfillmentResponse()
@@ -103,10 +103,7 @@ class DialogFlowRestaurant
     {
         return [
             "text" => [
-                "نارو وے پیزا، پیزا کیسل، سپر وے",
-                // "پیزا کیسل",
-                // "نارو وے پیزا",
-                // "سپر وے",
+                "فرائز، لہسن روٹی، رولز",
             ],
             "allowPlaybackInterruption" => true
         ];
@@ -116,8 +113,8 @@ class DialogFlowRestaurant
     {
         return [
             "text" => implode("\n", [
-                " پیزا کیسل",
-                " نارو وے پیزا",
+                "پیزا کیسل",
+                "نارو وے پیزا",
                 "سپر وے",
             ]),
             "allowPlaybackInterruption" => true

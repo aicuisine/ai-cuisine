@@ -22,8 +22,9 @@ Route::group(['prefix' => 'v1', 'as' => 'v1.'], function () {
     Route::group(['prefix' => 'webhook', 'as' => 'webhook.'], function () {
         Route::group(['prefix' => 'google', 'as' => 'google.'], function () {
             Route::group(['prefix' => 'dialogflow', 'as' => 'dialogflow.'], function () {
-                Route::post('restaurant', [\App\Http\Controllers\Api\V1\Webhook\Google\DialogFlow\RestaurantController::class, 'index'])->name('index');
-                Route::post('menu', [\App\Http\Controllers\Api\V1\Webhook\Google\DialogFlow\MenuController::class, 'index'])->name('index');
+                Route::post('restaurants', [\App\Http\Controllers\Api\V1\Webhook\Google\DialogFlow\RestaurantController::class, 'index'])->name('index');
+                Route::post('meal-items', [\App\Http\Controllers\Api\V1\Webhook\Google\DialogFlow\MealItemController::class, 'index'])->name('index');
+                Route::post('meal-categories', [\App\Http\Controllers\Api\V1\Webhook\Google\DialogFlow\MealCategoryController::class, 'index'])->name('index');
             });
         });
     });

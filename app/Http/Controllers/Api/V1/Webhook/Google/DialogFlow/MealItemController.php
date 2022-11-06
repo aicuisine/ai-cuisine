@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers\Api\V1\Webhook\Google\DialogFlow;
 
-use App\Helpers\DialogFlowMenu as HelpersDialogFlowMenu;
+use App\Helpers\DialogFlowMealitem as HelpersDialogFlowMealItem;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class MenuController extends Controller
+class MealItemController extends Controller
 {
     public function index(Request $request)
     {
         $response = [
-            "fulfillmentResponse" => HelpersDialogFlowMenu::generateFulfillmentResponse(),
+            "fulfillmentResponse" => HelpersDialogFlowMealItem::generateFulfillmentResponse(),
             // "pageInfo" => HelpersDialogFlow::generatePageInfo(),
             // "sessionInfo" => HelpersDialogFlow::generateSessionInfo(),
             // "payload" => HelpersDialogFlow::generatePayload(),
