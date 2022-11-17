@@ -2,14 +2,18 @@
 
 namespace App\Http\Controllers\Api\V1\Webhook\Google\DialogFlow;
 
+use App\Helpers\DialogFlowRequest;
 use App\Helpers\DialogFlowRestaurant as HelpersDialogFlowRestaurant;
 use App\Http\Controllers\Controller;
+
 use Illuminate\Http\Request;
 
 class RestaurantController extends Controller
 {
     public function index(Request $request)
     {
+        DialogFlowRequest::storeRequest($request);
+
         $response = [
             "fulfillmentResponse" => HelpersDialogFlowRestaurant::generateFulfillmentResponse(),
             // "pageInfo" => HelpersDialogFlow::generatePageInfo(),

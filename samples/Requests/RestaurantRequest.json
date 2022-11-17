@@ -72,5 +72,1563 @@
         "fulfillmentInfo": { "tag": "restaurant-list" },
         "text": "\u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u06ba",
         "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "e9e0fe3e-ebbb-4f60-bc53-7109b9f123d6",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/d46db820-c21f-4737-bfa7-8438d6b8d381",
+            "displayName": "RestSelect_2",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/d998f7-9c5-c29-c02-9673d5b25"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "c5e356c1-c718-4f68-bf60-f71a6555cffa",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/07d62040-0051-4006-9f66-c559173f460a",
+            "parameters": {
+                "restname": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                    ]
+                }
+            },
+            "displayName": "RestCat_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/d998f7-9c5-c29-c02-9673d5b25",
+            "parameters": {
+                "restname": [
+                    "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                ]
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "8e7e384f-1232-4ec3-82ba-f7a20c82339b",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/d46db820-c21f-4737-bfa7-8438d6b8d381",
+            "displayName": "RestSelect_2",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/8bc298-1dd-0ca-fbd-a828ab10f"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "954249d8-7b95-4484-8084-18401a6daaaa",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/07d62040-0051-4006-9f66-c559173f460a",
+            "parameters": {
+                "restname": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                    ]
+                }
+            },
+            "displayName": "RestCat_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/8bc298-1dd-0ca-fbd-a828ab10f",
+            "parameters": {
+                "restname": [
+                    "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                ]
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "96b65648-ed8c-480f-ad28-3f7ec4acbe65",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 0.63327086
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/2fad28-85c-1cf-7be-1e25cde26"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627 \u0622\u062f\u0688\u0631 \u06a9\u0631\u0646\u0627 \u06c1\u06d2",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "96b65648-ed8c-480f-ad28-3f7ec4acbe65",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 0.63327086
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/59793ddf-ec9a-4e09-812a-cba289350dfe/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/2fad28-85c-1cf-7be-1e25cde26"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            },
+            {
+                "text": {
+                    "text": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627\u060c \u067e\u06cc\u0632\u0627 \u06a9\u06cc\u0633\u0644\u060c \u0633\u067e\u0631 \u0648\u06d2"
+                    ],
+                    "redactedText": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627\u060c \u067e\u06cc\u0632\u0627 \u06a9\u06cc\u0633\u0644\u060c \u0633\u067e\u0631 \u0648\u06d2"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "WEBHOOK"
+            },
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627 \u0622\u062f\u0688\u0631 \u06a9\u0631\u0646\u0627 \u06c1\u06d2",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "e2519cbe-2a37-41fd-bd5b-d4ed1d724999",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/d46db820-c21f-4737-bfa7-8438d6b8d381",
+            "displayName": "RestSelect_2",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/14f870-f0a-9b4-df6-1e57c1435"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u06a9\u06cc \u0644\u0633\u0679 \u062f\u06cc\u06a9\u06be\u0627\u0624",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "85217040-838e-4e23-9fb6-b9d826c0f328",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/dcd934-2e8-0fc-729-c03831023"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627 \u0622\u0631\u0688\u0631 \u06a9\u0631\u0646\u0627 \u06c1\u06d2",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "85217040-838e-4e23-9fb6-b9d826c0f328",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/59793ddf-ec9a-4e09-812a-cba289350dfe/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/dcd934-2e8-0fc-729-c03831023"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            },
+            {
+                "text": {
+                    "text": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627\u060c \u067e\u06cc\u0632\u0627 \u06a9\u06cc\u0633\u0644\u060c \u0633\u067e\u0631 \u0648\u06d2"
+                    ],
+                    "redactedText": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627\u060c \u067e\u06cc\u0632\u0627 \u06a9\u06cc\u0633\u0644\u060c \u0633\u067e\u0631 \u0648\u06d2"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "WEBHOOK"
+            },
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627 \u0622\u0631\u0688\u0631 \u06a9\u0631\u0646\u0627 \u06c1\u06d2",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "ba1d5d1e-1af6-44a4-a40e-d1b772707342",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/07d62040-0051-4006-9f66-c559173f460a",
+            "parameters": {
+                "restname": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                    ]
+                }
+            },
+            "displayName": "RestCat_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/14f870-f0a-9b4-df6-1e57c1435",
+            "parameters": {
+                "restname": [
+                    "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                ]
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "c56ee935-2276-4b79-88cd-e21fe9a21519",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/dbfb24-08d-94c-c88-7acf59a7b"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "c56ee935-2276-4b79-88cd-e21fe9a21519",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/59793ddf-ec9a-4e09-812a-cba289350dfe/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/dbfb24-08d-94c-c88-7acf59a7b"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            },
+            {
+                "text": {
+                    "text": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627\u060c \u067e\u06cc\u0632\u0627 \u06a9\u06cc\u0633\u0644\u060c \u0633\u067e\u0631 \u0648\u06d2"
+                    ],
+                    "redactedText": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627\u060c \u067e\u06cc\u0632\u0627 \u06a9\u06cc\u0633\u0644\u060c \u0633\u067e\u0631 \u0648\u06d2"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "WEBHOOK"
+            },
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "e6be6c6a-a794-439b-86a6-77c2e23c56d7",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/59793ddf-ec9a-4e09-812a-cba289350dfe/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/dbfb24-08d-94c-c88-7acf59a7b"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "09a26bda-bf44-4264-9991-5c78f06bfaf8",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/d46db820-c21f-4737-bfa7-8438d6b8d381",
+            "displayName": "RestSelect_2",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/88a253-7f8-d0a-e02-db4ee2af9"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "f294bf86-ed9d-461d-8e4b-2e04c70bf3a0",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/07d62040-0051-4006-9f66-c559173f460a",
+            "parameters": {
+                "restname": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                    ]
+                }
+            },
+            "displayName": "RestCat_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/88a253-7f8-d0a-e02-db4ee2af9",
+            "parameters": {
+                "restname": [
+                    "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                ]
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "67d0582a-f4cb-4c70-8f05-dbfbb5be9887",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/27e954-b51-cc6-545-bcae4baff"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627 \u0622\u0631\u0688\u0631 \u06a9\u0631\u0646\u0627 \u06c1\u06d2",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "67d0582a-f4cb-4c70-8f05-dbfbb5be9887",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/59793ddf-ec9a-4e09-812a-cba289350dfe/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/27e954-b51-cc6-545-bcae4baff"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            },
+            {
+                "text": {
+                    "text": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627\u060c \u067e\u06cc\u0632\u0627 \u06a9\u06cc\u0633\u0644\u060c \u0633\u067e\u0631 \u0648\u06d2"
+                    ],
+                    "redactedText": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627\u060c \u067e\u06cc\u0632\u0627 \u06a9\u06cc\u0633\u0644\u060c \u0633\u067e\u0631 \u0648\u06d2"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "WEBHOOK"
+            },
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627 \u0622\u0631\u0688\u0631 \u06a9\u0631\u0646\u0627 \u06c1\u06d2",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "30c05a7f-1b8e-4bcb-a174-b9c0a77fa4c7",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/8c6ab2-28d-e00-ba8-70cc976b6"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "4bd8f0e8-5280-4e58-b83f-9e5dab06b66d",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/07d62040-0051-4006-9f66-c559173f460a",
+            "parameters": {
+                "restname": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                    ]
+                }
+            },
+            "displayName": "RestCat_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/8c6ab2-28d-e00-ba8-70cc976b6",
+            "parameters": {
+                "restname": [
+                    "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                ]
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "9b7b0e0f-eab8-4dca-ad64-9254595c99fd",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 0.50367904
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/9ed368-c3f-a78-397-95b785c49"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627 \u0622\u0631\u0688\u0631",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "a73d23e6-83f4-433c-89c5-1918b8ceb7f8",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/07d62040-0051-4006-9f66-c559173f460a",
+            "parameters": {
+                "restname": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                    ]
+                }
+            },
+            "displayName": "RestCat_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/9ed368-c3f-a78-397-95b785c49",
+            "parameters": {
+                "restname": [
+                    "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                ]
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "95780b5d-1a79-413c-b121-33a57f8cfa09",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/139499-230-5ba-126-a288e6647"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "50282047-95c9-4e99-a2db-27d59fc8b4ca",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/07d62040-0051-4006-9f66-c559173f460a",
+            "parameters": {
+                "restname": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                    ]
+                }
+            },
+            "displayName": "RestCat_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/139499-230-5ba-126-a288e6647",
+            "parameters": {
+                "restname": [
+                    "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                ]
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "704121c9-bcef-4f39-a029-037a878a320b",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/2640f1-869-a7a-8bb-ab93cd92b"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "2533f97d-c3f8-475d-8179-c302e52e2e6a",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/07d62040-0051-4006-9f66-c559173f460a",
+            "parameters": {
+                "restname": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                    ]
+                }
+            },
+            "displayName": "RestCat_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/2640f1-869-a7a-8bb-ab93cd92b",
+            "parameters": {
+                "restname": [
+                    "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                ]
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "208836d4-5b25-4940-a9cb-02ec9d28b796",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/971ed6-a96-c06-fcf-663a77e0e"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "6796b5f0-6f2b-4d09-87ae-f04180102353",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/07d62040-0051-4006-9f66-c559173f460a",
+            "parameters": {
+                "restname": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                    ]
+                }
+            },
+            "displayName": "RestCat_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/971ed6-a96-c06-fcf-663a77e0e",
+            "parameters": {
+                "restname": [
+                    "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                ]
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "9a914336-ed32-4b72-bd40-4ed8654ca191",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/57749085-bd0a-482c-95ab-9bff1a64199a",
+            "displayName": "RestSelect_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/ddf27d-7a2-da2-760-bdaaabc39"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "6518608b-582e-41b8-8943-c8c563e54d07",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/intents/07d62040-0051-4006-9f66-c559173f460a",
+            "parameters": {
+                "restname": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": [
+                        "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                    ]
+                }
+            },
+            "displayName": "RestCat_1",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/ddmrest1-mwsc/locations/us-central1/agents/8aa27826-58ca-4fe6-a653-aeb7b81c9b36/sessions/ddf27d-7a2-da2-760-bdaaabc39",
+            "parameters": {
+                "restname": [
+                    "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                ]
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "5a81a56f-e5cc-4e1c-95f7-382a3829399f",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/3b54814b-c037-48c9-9eb8-131cc16642d1",
+            "displayName": "Rest_Select",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/a63d0f-a7d-c92-75f-dddd5d844"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "02a6b692-5d54-462b-bfdd-317a982b0f8a",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/3b54814b-c037-48c9-9eb8-131cc16642d1",
+            "displayName": "Rest_Select",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/e276d8-818-1e1-282-946c7105a"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "e759e885-a8dd-4c15-a51e-82ee583cec35",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/3b54814b-c037-48c9-9eb8-131cc16642d1",
+            "displayName": "Rest_Select",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/9b0f45-e70-646-096-9d91cbbf7"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "1a92f148-d4a7-4dcd-be9b-44825f8eafbf",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/75c3b8fd-bfeb-4ed5-81d9-38c95ff7b99c",
+            "parameters": {
+                "rest_name": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                }
+            },
+            "displayName": "Cat_Pick",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/4efa4a4d-0ea8-4600-b62d-650abe03bb8e",
+            "formInfo": [],
+            "displayName": "Restaurant Selection"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/9b0f45-e70-646-096-9d91cbbf7",
+            "parameters": {
+                "rest_name": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "913cd083-5a11-49bc-bc38-72cdc09d8191",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/3b54814b-c037-48c9-9eb8-131cc16642d1",
+            "displayName": "Rest_Select",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/77ddc2-7d3-04d-5f6-c447c2cd7"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "cbb9fef9-d9fb-4f35-bff4-7a1307b01abc",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/75c3b8fd-bfeb-4ed5-81d9-38c95ff7b99c",
+            "parameters": {
+                "rest_name": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                }
+            },
+            "displayName": "Cat_Pick",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/4efa4a4d-0ea8-4600-b62d-650abe03bb8e",
+            "formInfo": [],
+            "displayName": "Restaurant Selection"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/77ddc2-7d3-04d-5f6-c447c2cd7",
+            "parameters": {
+                "rest_name": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "69dd9273-276b-459c-b6c4-d52080a35b6a",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/3b54814b-c037-48c9-9eb8-131cc16642d1",
+            "displayName": "Rest_Select",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/794f44-f10-d10-a0f-e4ba5d252"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627 \u0622\u0631\u0688\u0631 \u06a9\u0631\u0646\u0627 \u06c1\u06d2",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "2cb1a1a4-7041-4e01-b689-cfa900b375ed",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/75c3b8fd-bfeb-4ed5-81d9-38c95ff7b99c",
+            "parameters": {
+                "rest_name": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                }
+            },
+            "displayName": "Cat_Pick",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/4efa4a4d-0ea8-4600-b62d-650abe03bb8e",
+            "formInfo": [],
+            "displayName": "Restaurant Selection"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/794f44-f10-d10-a0f-e4ba5d252",
+            "parameters": {
+                "rest_name": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "750694f6-7af8-4b8c-8362-863f32426fd5",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/3b54814b-c037-48c9-9eb8-131cc16642d1",
+            "displayName": "Rest_Select",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/dad3b4-176-d75-394-c107f5440"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627 \u0622\u0631\u0688\u0631 \u06a9\u0631\u0646\u0627 \u06c1\u06d2",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "93a92739-2b7e-4eb5-9218-66e25e8270a1",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/75c3b8fd-bfeb-4ed5-81d9-38c95ff7b99c",
+            "parameters": {
+                "rest_name": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                }
+            },
+            "displayName": "Cat_Pick",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/4efa4a4d-0ea8-4600-b62d-650abe03bb8e",
+            "formInfo": [],
+            "displayName": "Restaurant Selection"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/dad3b4-176-d75-394-c107f5440",
+            "parameters": {
+                "rest_name": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "9b88633c-b1bf-4eb0-bd21-9a3a9538277e",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/3b54814b-c037-48c9-9eb8-131cc16642d1",
+            "displayName": "Rest_Select",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/056e9c-5c9-937-7a0-b531034a8"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u0645\u06cc\u0646\u0648",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "727bd842-b020-4928-9c1a-9b450f889390",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/75c3b8fd-bfeb-4ed5-81d9-38c95ff7b99c",
+            "parameters": {
+                "rest_name": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                }
+            },
+            "displayName": "Cat_Pick",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/4efa4a4d-0ea8-4600-b62d-650abe03bb8e",
+            "formInfo": [],
+            "displayName": "Restaurant Selection"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/056e9c-5c9-937-7a0-b531034a8",
+            "parameters": {
+                "rest_name": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "15fdfa9a-8c3b-4def-97ae-081ad9abc8bd",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/3b54814b-c037-48c9-9eb8-131cc16642d1",
+            "displayName": "Rest_Select",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/94fd66-85b-c56-102-f547d2c1d"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "a4ab141f-d291-4e4f-a38c-dfda65d52457",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/75c3b8fd-bfeb-4ed5-81d9-38c95ff7b99c",
+            "parameters": {
+                "rest_name": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                }
+            },
+            "displayName": "Cat_Pick",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/4efa4a4d-0ea8-4600-b62d-650abe03bb8e",
+            "formInfo": [],
+            "displayName": "Restaurant Selection"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/94fd66-85b-c56-102-f547d2c1d",
+            "parameters": {
+                "rest_name": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "7c02229c-ce35-4b14-a235-567d59a51ba8",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/3b54814b-c037-48c9-9eb8-131cc16642d1",
+            "displayName": "Rest_Select",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/b4e287-773-dbc-87e-4f4bde753"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "deafd071-76bc-4d1e-ac6e-af672376f817",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/75c3b8fd-bfeb-4ed5-81d9-38c95ff7b99c",
+            "parameters": {
+                "rest_name": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                }
+            },
+            "displayName": "Cat_Pick",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/4efa4a4d-0ea8-4600-b62d-650abe03bb8e",
+            "formInfo": [],
+            "displayName": "Restaurant Selection"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/b4e287-773-dbc-87e-4f4bde753",
+            "parameters": {
+                "rest_name": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "d6fa98d4-d5b1-42d0-8419-72d5ea86ac2f",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/3b54814b-c037-48c9-9eb8-131cc16642d1",
+            "displayName": "Rest_Select",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/START_PAGE",
+            "displayName": "Start Page"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/91e090-167-5aa-ffb-ebd0a8e0d"
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "messages": [
+            {
+                "text": {
+                    "text": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ],
+                    "redactedText": [
+                        "\u0628\u0631\u0627\u06d3 \u0645\u06c1\u0631\u0628\u0627\u0646\u06cc \u067e\u06c1\u0644\u06d2 \u0631\u06cc\u0633\u062a\u0648\u0631\u0627\u0646 \u067e\u0633\u0646\u062f \u06a9\u0631\u06cc\u06ba"
+                    ]
+                },
+                "responseType": "HANDLER_PROMPT",
+                "source": "VIRTUAL_AGENT"
+            }
+        ],
+        "text": "\u06a9\u06be\u0627\u0646\u0627 \u0622\u0631\u0688\u0631 \u06a9\u0631\u0646\u0627 \u06c1\u06d2",
+        "languageCode": "ur"
+    },
+    {
+        "detectIntentResponseId": "824e8bdc-03e0-40b5-aeec-e4de9bac27f8",
+        "intentInfo": {
+            "lastMatchedIntent": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/intents/75c3b8fd-bfeb-4ed5-81d9-38c95ff7b99c",
+            "parameters": {
+                "rest_name": {
+                    "originalValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+                    "resolvedValue": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+                }
+            },
+            "displayName": "Cat_Pick",
+            "confidence": 1
+        },
+        "pageInfo": {
+            "currentPage": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/flows/00000000-0000-0000-0000-000000000000/pages/4efa4a4d-0ea8-4600-b62d-650abe03bb8e",
+            "formInfo": [],
+            "displayName": "Restaurant Selection"
+        },
+        "sessionInfo": {
+            "session": "projects/test-kmbe/locations/us-central1/agents/d2d144d2-4808-4d65-83be-97c59a187cd5/sessions/91e090-167-5aa-ffb-ebd0a8e0d",
+            "parameters": {
+                "rest_name": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627"
+            }
+        },
+        "fulfillmentInfo": { "tag": "ai-cuisine" },
+        "text": "\u0646\u0627\u0631\u0648 \u0648\u06d2 \u067e\u06cc\u0632\u0627",
+        "languageCode": "ur"
     }
 ]

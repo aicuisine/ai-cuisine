@@ -2,13 +2,18 @@
 
 namespace App\Helpers;
 
+use App\Models\MealCategory;
+use App\Models\Restaurant;
+
 class DialogFlowMealCategory
 {
 
-    public static function generateFulfillmentResponse()
+    public static function generateFulfillmentResponse($restaurantName)
     {
+        $restaurant = Restaurant::where('name', $restaurantName)->firstOrFail();
+
         return [
-            "messages" => self::generateResponseMessages(),
+            "messages" => self::generateResponseMessages($restaurant),
             // "mergeBehavior" => enum(MERGE_BEHAVIOR_UNSPECIFIED, APPEND, REPLACE)
             "mergeBehavior" => "APPEND"
         ];
@@ -66,12 +71,12 @@ class DialogFlowMealCategory
         return [];
     }
 
-    public static function generateResponseMessages()
+    public static function generateResponseMessages($restaurant)
     {
         return [
             [
                 // Union field message can be only one of the following:
-                "text" => self::generateResponseTexts(),
+                "text" => self::generateResponseTexts($restaurant),
                 // "payload" => [
                 //     object
                 // ],
@@ -99,24 +104,23 @@ class DialogFlowMealCategory
         ];
     }
 
-    public static function generateResponseTexts()
+    public static function generateResponseTexts($restaurant)
     {
+
         return [
             "text" => [
-                "برگر، سینڈوچ، مشروبات",
+                implode(', ', MealCategory::where('restaurant_id', $restaurant->id)->get()->pluck('name')->toArray())
+                // "برگر، سینڈوچ، مشروبات",
             ],
             "allowPlaybackInterruption" => true
         ];
     }
 
-    public static function generateOutputAudioTexts()
+    public static function generateOutputAudioTexts($restaurant)
     {
+
         return [
-            "text" => implode("\n", [
-                "پیزا کیسل",
-                "نارو وے پیزا",
-                "سپر وے",
-            ]),
+            "text" => implode(', ', MealCategory::where('restaurant_id', $restaurant->id)->get()->pluck('name')->toArray()),
             "allowPlaybackInterruption" => true
         ];
     }

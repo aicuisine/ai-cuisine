@@ -2,6 +2,8 @@
 
 namespace App\Helpers;
 
+use App\Models\Restaurant;
+
 class DialogFlowRestaurant
 {
 
@@ -103,10 +105,8 @@ class DialogFlowRestaurant
     {
         return [
             "text" => [
-                "نارو وے پیزا، پیزا کیسل، سپر وے",
-                // "پیزا کیسل",
-                // "نارو وے پیزا",
-                // "سپر وے",
+                implode(', ', Restaurant::all()->pluck('name')->toArray())
+                // "نارو وے پیزا، پیزا کیسل، سپر وے",
             ],
             "allowPlaybackInterruption" => true
         ];
@@ -115,11 +115,8 @@ class DialogFlowRestaurant
     public static function generateOutputAudioTexts()
     {
         return [
-            "text" => implode("\n", [
-                " پیزا کیسل",
-                " نارو وے پیزا",
-                "سپر وے",
-            ]),
+            "text" => implode(', ', Restaurant::all()->pluck('name')->toArray()),
+            // "نارو وے پیزا، پیزا کیسل، سپر وے",
             "allowPlaybackInterruption" => true
         ];
     }

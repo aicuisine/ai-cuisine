@@ -4,14 +4,17 @@ namespace App\Http\Controllers\Api\V1\Webhook\Google\DialogFlow;
 
 use App\Helpers\DialogFlowMealCategory as HelpersDialogFlowMealCategory;
 use App\Http\Controllers\Controller;
+use App\Helpers\DialogFlowRequest;
 use Illuminate\Http\Request;
 
 class MealCategoryController extends Controller
 {
     public function index(Request $request)
     {
+        DialogFlowRequest::storeRequest($request);
+
         $response = [
-            "fulfillmentResponse" => HelpersDialogFlowMealCategory::generateFulfillmentResponse(),
+            "fulfillmentResponse" => HelpersDialogFlowMealCategory::generateFulfillmentResponse($request->text),
             // "pageInfo" => HelpersDialogFlow::generatePageInfo(),
             // "sessionInfo" => HelpersDialogFlow::generateSessionInfo(),
             // "payload" => HelpersDialogFlow::generatePayload(),

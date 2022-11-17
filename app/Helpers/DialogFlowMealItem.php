@@ -2,13 +2,23 @@
 
 namespace App\Helpers;
 
+use App\Models\DialogRequest;
+use App\Models\DialogSession;
+use App\Models\MealCategory;
+use App\Models\MealItem;
+use App\Models\Restaurant;
+
 class DialogFlowMealItem
 {
 
-    public static function generateFulfillmentResponse()
+    public static function generateFulfillmentResponse($restaurantName, $categoryName)
     {
+
+        $restaurant = Restaurant::where('name', $restaurantName)->firstOrFail();
+        $mealCategory = MealCategory::where('restaurant_id', $restaurant->id)->where('name', $categoryName)->firstOrFail();
+
         return [
-            "messages" => self::generateResponseMessages(),
+            "messages" => self::generateResponseMessages($restaurant, $mealCategory),
             // "mergeBehavior" => enum(MERGE_BEHAVIOR_UNSPECIFIED, APPEND, REPLACE)
             "mergeBehavior" => "APPEND"
         ];
@@ -66,12 +76,12 @@ class DialogFlowMealItem
         return [];
     }
 
-    public static function generateResponseMessages()
+    public static function generateResponseMessages($restaurant, $mealCategory)
     {
         return [
             [
                 // Union field message can be only one of the following:
-                "text" => self::generateResponseTexts(),
+                "text" => self::generateResponseTexts($restaurant, $mealCategory),
                 // "payload" => [
                 //     object
                 // ],
@@ -99,24 +109,20 @@ class DialogFlowMealItem
         ];
     }
 
-    public static function generateResponseTexts()
+    public static function generateResponseTexts($restaurant, $mealCategory)
     {
         return [
             "text" => [
-                "فرائز، لہسن روٹی، رولز",
+                implode(', ', MealItem::where('restaurant_id', $restaurant->id)->where('meal_category_id', $mealCategory->id)->get()->pluck('name')->toArray())
             ],
             "allowPlaybackInterruption" => true
         ];
     }
 
-    public static function generateOutputAudioTexts()
+    public static function generateOutputAudioTexts($restaurant, $mealCategory)
     {
         return [
-            "text" => implode("\n", [
-                "پیزا کیسل",
-                "نارو وے پیزا",
-                "سپر وے",
-            ]),
+            implode(', ', MealItem::where('restaurant_id', $restaurant->id)->where('meal_category_id', $mealCategory->id)->get()->pluck('name')->toArray()),
             "allowPlaybackInterruption" => true
         ];
     }
